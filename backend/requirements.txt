@@ -1,0 +1,9 @@
+fastapi[all]
+pypdf2
+sentence-transformers
+torch
+chromadb
+python-multipart
+firebase-admin
+langchain
+langchain-text-splitters
