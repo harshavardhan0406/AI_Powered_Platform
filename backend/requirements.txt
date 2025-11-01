@@ -1,5 +1,5 @@
 fastapi[all]
-pypdf2
+pypdf
 sentence-transformers
 torch
 chromadb
