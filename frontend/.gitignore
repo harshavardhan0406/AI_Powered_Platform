@@ -21,3 +21,28 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+--- General Operating System Files ---
+
+.DS_Store
+.vscode/
+
+--- Python Environment ---
+
+The virtual environment folder created by 'python -m venv venv'
+
+venv/
+pycache/
+*.pyc
+
+--- Node/React Environment ---
+
+The large folder created by 'npm install'
+
+frontend/node_modules
+frontend/build
+
+--- Backend Private Files (Handled in backend/.gitignore below, but good practice here) ---
+
+backend/serviceAccountKey.json
+backend/chroma_db/
